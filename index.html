@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!--Sets doctype to html-->
+<html lang="en"> <!--Sets the language of the document to English-->
+<head>
+    <meta charset="UTF-8"> <!--hypertext for html-->
+    <title>CyberSecured</title> <!--Title of the page-->
+    <link rel="stylesheet" href="first.css"> <!--Link to the css file-->
+<style>
+    body {
+        margin: 0; 
+        padding: 10px;
+        }
+
+    .link-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        }
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 26px;
+        }
+    .right-link {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        }
+    p {
+        font-size: 24px;
+        color: white;
+        background-color: darkblue;
+        }
+    .center {
+        margin: auto;
+        width: 50%;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        }
+</style>
+<!--The style of the document with the h1 tag to center and make it white and size 50px, background color of dark blue center is a class where all the elements are the center, all of a is white and bold with text size of 26px. 
+the class link-container is to align the about us to the other buttons, display flex layout, and the justify has spaces in between-->
+</head>
+<body style="background-image: url(img8.jpeg);"> <!--The body of the document changing the background using inline-->
+
+<h1>CyberSecured</h1> <!--heading-->
+<div class="link-container"> <!--using div and having link container class-->
+    <a href="about.html"> <!--links the file to the buttons-->
+        <button>About Us</button>
+    </a>
+    <div class ="right-link">
+        <a href="anti-virus.html" style="text-align: right;">
+            <button>Anti-Virus</button>
+        </a>
+        <a href="password_manager.html" style="text-align: right;">
+            <button>Password Manager</button>
+        </a>
+        <a href="vpn.html" style="text-align: right;">
+            <button>VPN</button>
+        </a>
+    </div>
+</div>
+<p>Welcome to CyberSecured, a place where you can understand how to be secured and be 
+    informed of important data points such as the most popular anti-virus, most popular 
+    passwords and password managers, and which is the most trusted VPN</p>
+</body>
+</html>
